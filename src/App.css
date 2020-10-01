@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 650px;
+}
+
+#joke-block {
+  border: 1px solid silver;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column; 
+  box-shadow: 5px 5px 17px 12px silver;
+}
+
+#text {
+  height: 250px;
+  padding: 25px;
+  display: flex;
+  align-items: center;  
+  font-size: 27px;
+}
+
+.buttons {
+  text-align: right;
+  padding-right: 25px;
+}
+
+#new-joke {
+  background: #007ACC;
+  color: white;
+  border: 1px solid #007ACC;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 0 15px;
+  outline: none;
+  font-size: 20px;
+}
+
+.favorite-jokes-block {
+  height: 500px;
+  width: 600px;
+  border: 1px solid silver;
+  box-shadow: 5px 5px 17px 12px silver;
+  padding: 10px;
+}
+
+.favorite-jokes-block:first-child {
+  text-align: center;
+}
+
+.favourite-joke {
+  padding: 10px;
+  display: flex;
+}
+
+.favourite-joke:hover {
+  background-color: rgb(238, 237, 237);
+}
+
+.fa-times {
+  color: red;
+  font-size: 24px;
+  cursor: pointer
+}
